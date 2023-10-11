@@ -168,7 +168,7 @@ int main(int argc, char const *argv[])
                     if ((connfd = accept(listenfd, (struct sockaddr *)&cliaddr, &clilen)) < 0)
                         perror("\nError: ");
                     else
-                    {
+                    {   
                         printf("You got a connection from %s\n", inet_ntoa(cliaddr.sin_addr)); /* prints client's IP */
                         for (i = 0; i < FD_SETSIZE; i++)
                             if (client[i] < 0)

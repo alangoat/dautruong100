@@ -14,18 +14,18 @@
 void loginTutorial()
 {
     printf("-------------------Đấu trường 100-------------------\n");
-    printf("\nLogin Tutorial: ");
-    printf("\n\tSignin syntax: USER username");
-    printf("\n\tRegister syntax: REGISTER username password");
-    printf("\n\tPassword syntax: PASS password");
+    printf("\n\tCú pháp đăng nhập/đăng ký:  ");
+    printf("\n\tcú pháp đăng nhập: USER username");
+    printf("\n\tCú pháp đăng ký: REGISTER username password");
+    printf("\n\tcú pháp nhập mật khẩu : PASS password");
     printf("\n-------------------Đấu trường 100-------------------");
-    printf("\nInput to syntax: \n");
+    printf("\nVui lòng nhập cú pháp: \n");
 }
 //gameplay for normal client
 void gamePlayForNormalTutorial()
 {
     printf("-------------------Đấu trường 100-------------------\n");
-    printf("\nGameplay Tutorial(Choose answer): ");
+    printf("\nCú pháp trả lời: ");
     printf("\n\tAnswer syntax: ANSWER answer");
     printf("\n-------------------Đấu trường 100-------------------");
     printf("\nInput to syntax: \n");
